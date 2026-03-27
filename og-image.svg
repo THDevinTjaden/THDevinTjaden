@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Devin Tjaden">
+  <rect width="1200" height="630" fill="#0a0a0a" />
+  <rect x="60" y="60" width="1080" height="510" rx="24" fill="#121212" stroke="#2a2a2a"/>
+  <text x="110" y="285" fill="#f3f3f3" font-family="Inter, Arial, sans-serif" font-size="78" font-weight="700">
+    Devin Tjaden
+  </text>
+  <text x="110" y="350" fill="#9c9c9c" font-family="Inter, Arial, sans-serif" font-size="34">
+    Web Developer " Portfolio, Resume, Blog
+  </text>
+</svg>

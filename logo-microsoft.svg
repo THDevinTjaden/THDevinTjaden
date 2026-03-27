@@ -1,0 +1,11 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80">
+	<defs>
+		<image  width="252" height="55" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPwAAAA3CAMAAAAfWtciAAAAAXNSR0IB2cksfwAAADNQTFRF////////////////////////////////////////////////////////////////////5RDoRwAAABF0Uk5T/9AAIFBgsJCgEIDAcDDw4ECo4ZW4AAADfUlEQVR4nO2ah3LbMAxAJcZ7pf//lXXrETuuEkviwNQ5CUfbCHe5EwmIxKMoAKJTV6rUdaMrja76d6Qe0JkRXtFF96SAjPCKjPCaLronBWSEV2SE13TRPUkuvG75LvAOBfmdG775wr2flwCSAr5R+iuy5o1ilFbqP/4yL7y5Ac3Tq2yUWABHUngGhpbFNma3KqdAjM696aX3MjW8f/CdYvYi2aSWJjjgWnngiaLIO48mhY3o8ERDV6VAtJ+fwfw54dVFySg21meBR6oRXrzDy+JUVesz617VRzzM4spsNr/u2fONONZG2An0pxQ866YBjyyOU0OzdnGkWcOtW79MyyO1HUBIAh90faiZ3EIvhsfjG68GuWl6keeVJpxcuW0+eEMeLO8Vsg4ckq3GG9nU8r3KQ25fpuzwqxepl8HT0QX41UGeeX5mXSKmyQmPU2ofadAbzC7xkBRecmBzCnbP1V4fTx3BS1x4uZgS4V3dO+1j8X3ZILxpDfz8eKcY+vbUddDWNbUdivZx0i/mhN7eXzwRHhfcaBj6YjsbG/woPLTdnFAzL7wIOgAvJw3b26ZxZNOrdwfhZraWwWQAfg1SI5bF1c4uibLt7UVXkDywIMPwChB4kwUV78hU5Bh+FdLN4/BGbFU+ToAwtjsg22WoCsrCizucaOev2jC8Jdwe9DjNtBICRHZ493S6ol2HX5L67WF4SN+u4O4ntQ0nZhnhhyubaPCQ/r7CHN7WR38xPP2a+wB8tf4NnOHb3hb6meGBU7aCiRbw7EebweZVCIE/QnoqEvB4MPoi/FA+Y8nvg3m+0uWT8IBeh7dZy38DCcO4TzoJiHVRePALgQTfb5Gk8Hyxebh2A233htERotBs/FGNtpVAU4LvW8Xg/SlFF/G3e1IboIGe2zBin2W3WRq3Z8B6WNvuWAetrAY/v6WAl5+CHPjxkHRfSw4Y3t/FVc1Whu+kHDzzVoAXiKSF6/qeXmVbAg/vTQLfRzNSdzN4AUHL7HTeRuiDv8VK/W5UcMiZBL5vGkEp7pBe2gCshnMybSP00W5/1E3ggVUk+HXbPvjTxvnsPscRtqqqq30WU2QXDuls+N7e/y7kEHbm0iEoYTzBDp/y0Vjbj71002Mr813+LUWUEV6REV7TRfekgIzwiozwmi66JwVkhFdkhNd00T0pILVOaOTPRKf7D+Qd2o7Nptl/hhwAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: none } 
+	</style>
+	<path fill-rule="evenodd" class="s0" d="m0 0h320v80h-320z"/>
+	<use id="8867.Microsoft_5F00_Logo_2D00_for_2D00_screen" href="#img1" x="34" y="12"/>
+</svg>

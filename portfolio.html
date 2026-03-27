@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio projects by Devin Tjaden." />
+    <meta property="og:title" content="Portfolio | Devin Tjaden" />
+    <meta property="og:description" content="Selected case studies and project outcomes." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./og-image.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>Devin Tjaden | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <aside class="sidebar">
+        <a class="brand" href="./index.html">Devin Tjaden</a>
+        <p class="sidebar-role">Developer • Builder • Waukee, IA</p>
+        <nav class="side-nav" aria-label="Primary">
+          <a href="./index.html">Home</a>
+          <a class="active" href="./portfolio.html">Portfolio</a>
+          <a href="./resume.html">Resume</a>
+          <a href="./blog.html">Blog</a>
+          <a href="./index.html#contact">Contact</a>
+        </nav>
+      </aside>
+
+      <div class="content-wrap">
+        <main class="page page-wide">
+          <section class="hero">
+            <p class="kicker">Portfolio</p>
+            <h1>Selected projects and case studies.</h1>
+            <p class="lead">A quick view of the kind of work I design and build.</p>
+          </section>
+
+          <section class="section-block">
+            <div class="section-head">
+              <h2>Featured Projects</h2>
+            </div>
+            <div class="cards two">
+              <article class="card project-card">
+                <p class="meta">T&H WebWorks</p>
+                <h3>Local Business Website Launch</h3>
+                <p>Responsive multi-page website with cleaner structure and stronger first impression.</p>
+                <ul class="compact-list">
+                  <li>Modern visual refresh</li>
+                  <li>Mobile-first layout</li>
+                </ul>
+                <a class="btn ghost small" href="./project-local-business.html">Open case study</a>
+              </article>
+              <article class="card project-card">
+                <p class="meta">Frontend + UX</p>
+                <h3>Conversion-Oriented Landing Page</h3>
+                <p>Landing page refresh focused on visual hierarchy and simpler decision flow.</p>
+                <ul class="compact-list">
+                  <li>Faster scanability</li>
+                  <li>Cleaner user journey</li>
+                </ul>
+                <a class="btn ghost small" href="./project-landing-page.html">Open case study</a>
+              </article>
+              <article class="card project-card">
+                <p class="meta">Operations-Informed</p>
+                <h3>Fast Turnaround Project Workflow</h3>
+                <p>Delivery system designed to keep projects organized and consistent.</p>
+                <ul class="compact-list">
+                  <li>Milestone-driven process</li>
+                  <li>Organized handoff steps</li>
+                </ul>
+                <a class="btn ghost small" href="./project-workflow.html">Open case study</a>
+              </article>
+              <article class="card project-card">
+                <p class="meta">Hosting + Support</p>
+                <h3>Deployment and Maintenance</h3>
+                <p>Post-launch updates and deployment handling for stable site performance.</p>
+                <ul class="compact-list">
+                  <li>Reliable deployment</li>
+                  <li>Post-launch updates</li>
+                </ul>
+                <a class="btn ghost small" href="./project-maintenance.html">Open case study</a>
+              </article>
+            </div>
+          </section>
+        </main>
+
+        <footer>
+          <p>© <span id="year"></span> Devin Tjaden</p>
+        </footer>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

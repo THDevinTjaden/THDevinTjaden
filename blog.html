@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Blog posts by Devin Tjaden." />
+    <meta property="og:title" content="Blog | Devin Tjaden" />
+    <meta property="og:description" content="Short, practical notes from real projects." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./og-image.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>Devin Tjaden | Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <aside class="sidebar">
+        <a class="brand" href="./index.html">Devin Tjaden</a>
+        <p class="sidebar-role">Developer • Builder • Waukee, IA</p>
+        <nav class="side-nav" aria-label="Primary">
+          <a href="./index.html">Home</a>
+          <a href="./portfolio.html">Portfolio</a>
+          <a href="./resume.html">Resume</a>
+          <a class="active" href="./blog.html">Blog</a>
+          <a href="./index.html#contact">Contact</a>
+        </nav>
+      </aside>
+
+      <div class="content-wrap">
+        <main class="page page-wide">
+          <section class="hero">
+            <p class="kicker">Blog</p>
+            <h1>Short, practical notes from real projects.</h1>
+            <p class="lead">No fluff. Just what worked and why.</p>
+          </section>
+
+          <section class="section-block">
+            <div class="section-head">
+              <h2>Recent Posts</h2>
+            </div>
+            <div class="tool-row js-filter-root" data-empty-id="blog-empty">
+              <input
+                id="blog-search"
+                class="tool-input"
+                type="search"
+                placeholder="Search posts..."
+                aria-label="Search blog posts"
+                data-filter-search
+              />
+              <div class="tool-chips" role="group" aria-label="Filter posts by category">
+                <button class="tool-chip active" type="button" data-filter-tag="all">All</button>
+                <button class="tool-chip" type="button" data-filter-tag="career">Career</button>
+                <button class="tool-chip" type="button" data-filter-tag="process">Process</button>
+                <button class="tool-chip" type="button" data-filter-tag="frontend">Frontend</button>
+              </div>
+            </div>
+            <div class="blog-list js-filter-list">
+              <article
+                class="row-item js-filter-item"
+                data-tags="career"
+                data-search="logistics retail web development career workflow communication"
+              >
+                <div>
+                  <p class="meta">March 2026 • Career</p>
+                  <h3>From logistics and retail to web development: what I kept from each role</h3>
+                  <p>How non-tech jobs shaped my workflow and client communication style.</p>
+                </div>
+                <a class="btn ghost small" href="./blog-post.html">Read Post</a>
+              </article>
+              <article
+                class="row-item js-filter-item"
+                data-tags="process"
+                data-search="website projects first draft launch scope build follow up process"
+              >
+                <div>
+                  <p class="meta">February 2026 • Process</p>
+                  <h3>How I run website projects from first draft to launch</h3>
+                  <p>My simple process for scope, build, launch, and follow-up.</p>
+                </div>
+                <a class="btn ghost small" href="./blog-post-process.html">Read Post</a>
+              </article>
+              <article
+                class="row-item js-filter-item"
+                data-tags="frontend"
+                data-search="mobile first local business websites frontend trust clarity layout"
+              >
+                <div>
+                  <p class="meta">January 2026 • Frontend</p>
+                  <h3>Why mobile-first structure is non-negotiable for local business sites</h3>
+                  <p>The quick layout decisions that improve mobile trust and clarity.</p>
+                </div>
+                <a class="btn ghost small" href="./blog-post-frontend.html">Read Post</a>
+              </article>
+            </div>
+            <p id="blog-empty" class="empty-state is-hidden">No posts match that search yet.</p>
+          </section>
+        </main>
+
+        <footer>
+          <p>© <span id="year"></span> Devin Tjaden</p>
+        </footer>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
